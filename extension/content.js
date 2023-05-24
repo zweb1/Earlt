@@ -1,7 +1,6 @@
 // Define the replacements you want to make
 const replacements = [
     { from: "https://w2g DOT ", to: "https://w2g." },
-    { from: "old text 2", to: "new text 2" },
     // Add more replacements as needed
   ];
   
