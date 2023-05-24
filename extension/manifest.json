@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Text Replacement Extension",
+    "version": "1.0",
+    "description": "Replace specific text on Twitch.tv",
+    "permissions": ["scripting", "webNavigation"],
+    "host_permissions": [
+      "*://*.twitch.tv/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
